@@ -3,9 +3,26 @@
 //I am going to make requests from here to the backend 
 import axios from 'axios';
 
-const state = {};
+const state = {
+  todos: [
+    {
+      id: 1,
+      title: "Learn VueX"
+    },
+    {
+      id: 2,
+      title: "Eat VueX"
+    },
+    {
+      id: 3,
+      title: "Sleep VueX"
+    }
+  ]
+};
 
-const getters = {};
+const getters = {
+  allTodos: state => state.todos
+};
 
 const actions = {};
 
