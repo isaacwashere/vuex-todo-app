@@ -4,28 +4,26 @@
 import axios from 'axios';
 
 const state = {
-  todos: [
-    {
-      id: 1,
-      title: "Learn VueX"
-    },
-    {
-      id: 2,
-      title: "Eat VueX"
-    },
-    {
-      id: 3,
-      title: "Sleep VueX"
-    }
-  ]
+  todos: []
 };
 
 const getters = {
   allTodos: state => state.todos
 };
 
-const actions = {};
+const actions = {
+  //actions take in an object
+  //use commit to make a mutation, do not call it directly
+  async fetchTodos({ commit }) {
+    const response = await axios.get(
+      'https://jsonplaceholder.typicode.com/todos'
+    );
+    console.log(response.data);
+  }
 
+};
+
+//mutations are what mutate/change the state
 const mutations = {};
 
 
