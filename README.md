@@ -1,6 +1,6 @@
 # Basic Todo App
 
-This is a very simple, single component, todo app using VueJS. The app supports the creation of a Todo item and the ability to delete a todo as well as mark it complete. 
+This is a basic, single page, todo app using VueX. The app supports selecting the total number of Todos desired from the jsonplaceholder API, as well as the creation of a new Todo item, the ability to delete a todo, and the ability mark/toggle a todo as complete or incomplete.
 
 ## How to Run
 
