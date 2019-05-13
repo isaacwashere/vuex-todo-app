@@ -32,7 +32,7 @@ This is a basic, single page, todo app using VueX. The app supports selecting th
 | -------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | VueX                 | Allow the sharing of state between multiple components                                                                                                   |
 | JSON Placeholder     | Source of Todo item data                                                                                                                                 |
-| Axios                | Make GET Req (fetch and filter the number of Todos desired), DELETE Req (delete a Todo item), POST Req (create a Todo item), and PUT req (update a todo) |
+| Axios                | Make GET Req (fetch Todos and filter the amount desired), DELETE Req (delete a Todo item), POST Req (create a Todo item), and PUT req (update a todo)    |
 | grid (css)           | Display a single Todo in/on it's own tile; display a uniform amount of tiles on a single line                                                            |
 | font awesome         | Give a visual "button" for a user to click when they wish to delete a todo                                                                               |
 
