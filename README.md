@@ -30,11 +30,11 @@ This is a basic, single page, todo app using VueX. The app supports selecting th
 
 | Technology/Function  | Purpose                                                                                                                                                  |
 | -------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| VueX                 | Allow the sharing of state between multiple components                                                                                                   |
 | JSON Placeholder     | Source of Todo item data                                                                                                                                 |
 | Axios                | Make GET Req (fetch and filter the number of Todos desired), DELETE Req (delete a Todo item), POST Req (create a Todo item), and PUT req (update a todo) |
-| VueX                 | Allow the sharing of state between multiple components                                                                                                   |
-| font awesome         | Give a visual "button" for a user to click when they wish to delete a todo
-| grid (css)           | Display Todos in a grid-like format where each Todo item is on it's own tile
+| grid (css)           | Display a single Todo in/on it's own tile; display a uniform amount of tiles on a single line                                                            |
+| font awesome         | Give a visual "button" for a user to click when they wish to delete a todo                                                                               |
 
 * This is my first time using VueX
 * There is a store with a todos.js module; the module holds all the methods that makes various "async await" requests
@@ -49,4 +49,3 @@ This is a basic, single page, todo app using VueX. The app supports selecting th
 * A user should have an account to save their Todo item's
 * The UI would benefit from rounder edges on the "Add Todo" input box and "Submit" button
 * Implement Testing 
-
