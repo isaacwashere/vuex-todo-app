@@ -36,7 +36,6 @@ This is a basic, single page, todo app using VueX. The app supports selecting th
 | grid (css)           | Display a single Todo in/on it's own tile; display a uniform amount of tiles on a single line                                                            |
 | font awesome         | Give a visual "button" for a user to click when they wish to delete a todo                                                                               |
 
-* This is my first time using VueX
 * There is a store with a todos.js module; the module holds all the methods that makes various "async await" requests
 * By double clicking on a Todo item, it is updated as being completed or not completed 
 * Using a "select" button that opens a dropdown a user can select how many Todos they wish to see
